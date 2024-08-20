@@ -1,0 +1,8 @@
+torch==1.13.0
+torchvision
+numpy
+matplotlib
+tabulate
+tqdm
+onnx
+maraboupy

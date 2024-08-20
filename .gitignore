@@ -1,0 +1,11 @@
+build/*
+out/*
+cache/*
+data/*
+logs/*
+venv/*
+plots/*
+dsets/*
+dumps/*
+*__pycache__*
+table.txt

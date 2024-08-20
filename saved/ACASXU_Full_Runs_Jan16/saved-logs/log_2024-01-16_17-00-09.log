@@ -1,0 +1,1146 @@
+
+[1039.757251739502 utils.py:init_logging:60] INFO - 
+	 Logging to logs/log_2024-01-16_17-00-09.log
+
+[1040.1675701141357 utils.py:init_logging:63] INFO - 
+	 Config has: [('os', <module 'os' (frozen)>), ('exp', <built-in function exp>), ('np', <module 'numpy' from '/mnt/extdata/Academic/Projects/learning-merges/lm/venv/lib/python3.11/site-packages/numpy/__init__.py'>), ('torch', <module 'torch' from '/mnt/extdata/Academic/Projects/learning-merges/lm/venv/lib/python3.11/site-packages/torch/__init__.py'>), ('MARABOU_PATH', '../Marabou/'), ('LOG_PATH', 'logs/'), ('PLOT_PATH', 'plots/'), ('DUMP_PATH', 'dumps/'), ('ASSERTS', True), ('DEBUG', True), ('VISUALIZE', True), ('TIMING', True), ('WARN', True), ('SHOW_PLOT', False), ('LOSS_LOG_IVAL', 1), ('LAMBDA_VIZ_ENABLE', True), ('LAMBDA_VIZ_NUM_BINS', 250), ('RNG_SEED', 1), ('WEIGHT_INIT_GAIN', 100), ('LR_WB', 1), ('LR_LAM', 0.1), ('LAMBDA_FIX_ENABLE', True), ('LAMBDA_FIX_MIN_ITER', 0), ('LAMBDA_FIX_COEFF', 0.9), ('LAMBDA_FIX_LAM_STUCK_ITER', 10), ('LAMBDA_FIX_WB_RESET_FACTOR', 0.5), ('FLOAT_TYPE_NP', <class 'numpy.float32'>), ('FLOAT_TYPE_PYTORCH', torch.float32), ('INDEX_TYPE_PYTORCH', torch.int64), ('FLOATING_POINT_ADJUST', 1e-05), ('LARGE_LOSS_VAL', 100000.0), ('CEX_LOSS_SCALE', 0.5), ('SOUND_LOSS_SCALE', 0.6666666666666666), ('LAMBDA_LOSS_SCALE', 0.0), ('W_GRAD_SCALE', 1), ('B_GRAD_SCALE', 1), ('LAM_GRAD_SCALE', 1), ('NUM_LS_ITERS', 1), ('SCALE_LS', False), ('WB_RANGE', 100)]
+
+[1041.982889175415 parametrized_abstract_network.py:<module>:774] INFO - 
+	 Args are Namespace(network='../networks/ACASXU_run2a_1_3_batch_2000.nnet', property='../properties/property_3.prop', abs_nodes=75, epochs=100, lambda_fix_enable=True, lambda_fix_coeff=0.9)
+
+[1124.824047088623 interval_propagation.py:get_interval_propagations:28] DEBUG - 
+	 shape after where: (5, 100)
+
+[1125.6718635559082 interval_propagation.py:get_interval_propagations:32] DEBUG - 
+	 shape after mult: (100,)
+
+[1126.0757446289062 interval_propagation.py:get_interval_propagations:45] DEBUG - 
+	 lin_u,l_bound shape: (100,) (100,)
+
+[1126.38258934021 interval_propagation.py:get_interval_propagations:52] DEBUG - 
+	 u,l_bound shape: (100,) (100,)
+
+[1127.0244121551514 interval_propagation.py:get_interval_propagations:28] DEBUG - 
+	 shape after where: (100, 100)
+
+[1127.3243427276611 interval_propagation.py:get_interval_propagations:32] DEBUG - 
+	 shape after mult: (100,)
+
+[1127.711296081543 interval_propagation.py:get_interval_propagations:45] DEBUG - 
+	 lin_u,l_bound shape: (100,) (100,)
+
+[1127.9947757720947 interval_propagation.py:get_interval_propagations:52] DEBUG - 
+	 u,l_bound shape: (100,) (100,)
+
+[1128.8087368011475 interval_propagation.py:get_interval_propagations:28] DEBUG - 
+	 shape after where: (100, 100)
+
+[1129.1251182556152 interval_propagation.py:get_interval_propagations:32] DEBUG - 
+	 shape after mult: (100,)
+
+[1129.5833587646484 interval_propagation.py:get_interval_propagations:45] DEBUG - 
+	 lin_u,l_bound shape: (100,) (100,)
+
+[1129.8828125 interval_propagation.py:get_interval_propagations:52] DEBUG - 
+	 u,l_bound shape: (100,) (100,)
+
+[1130.2235126495361 interval_propagation.py:get_interval_propagations:28] DEBUG - 
+	 shape after where: (100, 100)
+
+[1130.4874420166016 interval_propagation.py:get_interval_propagations:32] DEBUG - 
+	 shape after mult: (100,)
+
+[1130.9101581573486 interval_propagation.py:get_interval_propagations:45] DEBUG - 
+	 lin_u,l_bound shape: (100,) (100,)
+
+[1130.9900283813477 interval_propagation.py:get_interval_propagations:52] DEBUG - 
+	 u,l_bound shape: (100,) (100,)
+
+[1131.1228275299072 interval_propagation.py:get_interval_propagations:28] DEBUG - 
+	 shape after where: (100, 100)
+
+[1131.2127113342285 interval_propagation.py:get_interval_propagations:32] DEBUG - 
+	 shape after mult: (100,)
+
+[1131.3698291778564 interval_propagation.py:get_interval_propagations:45] DEBUG - 
+	 lin_u,l_bound shape: (100,) (100,)
+
+[1131.434440612793 interval_propagation.py:get_interval_propagations:52] DEBUG - 
+	 u,l_bound shape: (100,) (100,)
+
+[1131.5739154815674 interval_propagation.py:get_interval_propagations:28] DEBUG - 
+	 shape after where: (100, 91)
+
+[1131.6912174224854 interval_propagation.py:get_interval_propagations:32] DEBUG - 
+	 shape after mult: (91,)
+
+[1131.889820098877 interval_propagation.py:get_interval_propagations:45] DEBUG - 
+	 lin_u,l_bound shape: (91,) (91,)
+
+[1131.9406032562256 interval_propagation.py:get_interval_propagations:52] DEBUG - 
+	 u,l_bound shape: (91,) (91,)
+
+[1131.995439529419 interval_propagation.py:get_interval_propagations:28] DEBUG - 
+	 shape after where: (91, 4)
+
+[1132.042646408081 interval_propagation.py:get_interval_propagations:32] DEBUG - 
+	 shape after mult: (4,)
+
+[1132.1077346801758 interval_propagation.py:get_interval_propagations:45] DEBUG - 
+	 lin_u,l_bound shape: (4,) (4,)
+
+[1132.1508884429932 interval_propagation.py:get_interval_propagations:52] DEBUG - 
+	 u,l_bound shape: (4,) (4,)
+
+[1132.185459136963 interval_propagation.py:get_interval_propagations:57] DEBUG - 
+	 Propagated intervals : 
+
+[1132.218360900879 interval_propagation.py:get_interval_propagations:58] DEBUG - 
+	 [([-0.3035311561, -0.0095492966, 0.4933803236, 0.3, 0.3], [-0.2985528119, 0.0095492966, 0.5, 0.5, 0.5]), (array([0.        , 0.        , 0.0156612 , 0.0156612 , 0.        ,
+       0.        , 0.21891622, 0.21891622, 0.3501619 , 0.3501619 ,
+       0.        , 0.        , 0.56297636, 0.56297636, 0.        ,
+       0.        , 0.        , 0.        , 0.20905233, 0.20905233,
+       0.3146196 , 0.3146196 , 0.        , 0.        , 0.86045469,
+       0.86045469, 0.        , 0.        , 0.        , 0.        ,
+       0.02863273, 0.02863273, 0.        , 0.        , 0.40373369,
+       0.40373369, 0.        , 0.        , 0.        , 0.        ,
+       0.02268429, 0.02268429, 0.3502757 , 0.3502757 , 0.5268525 ,
+       0.5268525 , 0.        , 0.        , 0.21120734, 0.21120734,
+       0.09415758, 0.09415758, 0.        , 0.        , 0.        ,
+       0.        , 0.        , 0.        , 0.04996213, 0.04996213,
+       0.        , 0.        , 0.10621634, 0.10621634, 0.23247635,
+       0.23247635, 0.        , 0.        , 0.0436986 , 0.0436986 ,
+       0.06389832, 0.06389832, 0.14983068, 0.14983068, 0.01666647,
+       0.01666647, 0.        , 0.        , 0.87237589, 0.87237589,
+       0.        , 0.        , 0.        , 0.        , 0.33931763,
+       0.33931763, 0.02100815, 0.02100815, 0.        , 0.        ,
+       0.        , 0.        , 0.        , 0.        , 0.        ,
+       0.        , 0.14599322, 0.14599322, 0.        , 0.        ]), array([0.        , 0.        , 0.0210458 , 0.0210458 , 0.        ,
+       0.        , 0.27601061, 0.27601061, 0.63571727, 0.63571727,
+       0.        , 0.        , 0.66542555, 0.66542555, 0.        ,
+       0.        , 0.        , 0.        , 0.3218253 , 0.3218253 ,
+       0.49064274, 0.49064274, 0.        , 0.        , 0.93850512,
+       0.93850512, 0.02164406, 0.02164406, 0.        , 0.        ,
+       0.08004583, 0.08004583, 0.0922981 , 0.0922981 , 0.49439194,
+       0.49439194, 0.        , 0.        , 0.        , 0.        ,
+       0.02890971, 0.02890971, 0.45254478, 0.45254478, 0.65953325,
+       0.65953325, 0.        , 0.        , 0.30211775, 0.30211775,
+       0.13084234, 0.13084234, 0.        , 0.        , 0.        ,
+       0.        , 0.10367903, 0.10367903, 0.0820104 , 0.0820104 ,
+       0.        , 0.        , 0.18408763, 0.18408763, 0.29776295,
+       0.29776295, 0.        , 0.        , 0.16658348, 0.16658348,
+       0.10030087, 0.10030087, 0.19683221, 0.19683221, 0.18573489,
+       0.18573489, 0.        , 0.        , 1.02659396, 1.02659396,
+       0.        , 0.        , 0.12443141, 0.12443141, 0.46882999,
+       0.46882999, 0.03384783, 0.03384783, 0.        , 0.        ,
+       0.        , 0.        , 0.        , 0.        , 0.        ,
+       0.        , 0.28686123, 0.28686123, 0.        , 0.        ])), (array([0.        , 0.        , 0.        , 0.        , 0.        ,
+       0.        , 0.        , 0.        , 0.        , 0.        ,
+       0.        , 0.        , 0.        , 0.        , 0.        ,
+       0.        , 0.        , 0.        , 0.        , 0.        ,
+       0.        , 0.        , 0.        , 0.        , 0.        ,
+       0.        , 0.        , 0.        , 0.        , 0.        ,
+       0.        , 0.        , 0.        , 0.        , 0.07032006,
+       0.07032006, 0.        , 0.        , 0.        , 0.        ,
+       0.        , 0.        , 0.        , 0.        , 0.        ,
+       0.        , 0.        , 0.        , 0.82672324, 0.82672324,
+       0.51287832, 0.51287832, 0.        , 0.        , 0.        ,
+       0.        , 0.        , 0.        , 0.        , 0.        ,
+       0.        , 0.        , 0.        , 0.        , 0.        ,
+       0.        , 0.7110851 , 0.7110851 , 0.        , 0.        ,
+       0.        , 0.        , 0.        , 0.        , 0.        ,
+       0.        , 0.        , 0.        , 0.        , 0.        ,
+       0.52581196, 0.52581196, 0.        , 0.        , 0.        ,
+       0.        , 0.        , 0.        , 0.        , 0.        ,
+       0.        , 0.        , 0.15112913, 0.15112913, 0.37693957,
+       0.37693957, 0.        , 0.        , 0.        , 0.        ]), array([0.05178137, 0.05178137, 1.0606515 , 1.0606515 , 0.79348641,
+       0.79348641, 0.61289824, 0.61289824, 1.1277764 , 1.1277764 ,
+       0.17793891, 0.17793891, 0.17972196, 0.17972196, 0.        ,
+       0.        , 0.        , 0.        , 0.        , 0.        ,
+       0.        , 0.        , 0.39018784, 0.39018784, 0.44196083,
+       0.44196083, 0.        , 0.        , 1.58512272, 1.58512272,
+       0.        , 0.        , 0.07629255, 0.07629255, 1.20234215,
+       1.20234215, 0.        , 0.        , 0.        , 0.        ,
+       0.87934791, 0.87934791, 0.        , 0.        , 0.27391805,
+       0.27391805, 0.        , 0.        , 2.92531459, 2.92531459,
+       1.33925957, 1.33925957, 0.        , 0.        , 0.        ,
+       0.        , 0.        , 0.        , 0.        , 0.        ,
+       0.        , 0.        , 0.        , 0.        , 1.64528681,
+       1.64528681, 1.33067581, 1.33067581, 0.        , 0.        ,
+       0.53136558, 0.53136558, 0.05258417, 0.05258417, 0.        ,
+       0.        , 1.1815147 , 1.1815147 , 0.        , 0.        ,
+       1.39498623, 1.39498623, 0.36809113, 0.36809113, 1.45209328,
+       1.45209328, 0.        , 0.        , 0.05288318, 0.05288318,
+       0.78442194, 0.78442194, 0.38588876, 0.38588876, 0.95101161,
+       0.95101161, 0.13367884, 0.13367884, 0.        , 0.        ])), (array([0.        , 0.        , 0.        , 0.        , 0.        ,
+       0.        , 0.        , 0.        , 0.        , 0.        ,
+       0.        , 0.        , 0.        , 0.        , 0.        ,
+       0.        , 0.        , 0.        , 0.        , 0.        ,
+       0.        , 0.        , 0.        , 0.        , 0.        ,
+       0.        , 0.        , 0.        , 0.        , 0.        ,
+       0.        , 0.        , 0.        , 0.        , 0.        ,
+       0.        , 0.        , 0.        , 0.        , 0.        ,
+       0.        , 0.        , 0.        , 0.        , 0.        ,
+       0.        , 0.        , 0.        , 0.        , 0.        ,
+       0.        , 0.        , 0.        , 0.        , 0.        ,
+       0.        , 0.        , 0.        , 0.        , 0.        ,
+       0.        , 0.        , 0.        , 0.        , 0.        ,
+       0.        , 0.        , 0.        , 0.        , 0.        ,
+       0.        , 0.        , 0.        , 0.        , 0.        ,
+       0.        , 0.        , 0.        , 0.        , 0.        ,
+       0.        , 0.        , 0.        , 0.        , 0.        ,
+       0.        , 0.        , 0.        , 0.        , 0.        ,
+       0.        , 0.        , 0.        , 0.        , 0.        ,
+       0.        , 2.97998731, 2.97998731, 0.        , 0.        ]), array([ 2.35120757,  2.35120757,  5.01727638,  5.01727638,  6.92134973,
+        6.92134973,  3.98224058,  3.98224058,  0.06163784,  0.06163784,
+        3.36569914,  3.36569914,  1.15342097,  1.15342097,  3.86559028,
+        3.86559028,  4.3108495 ,  4.3108495 ,  4.77074577,  4.77074577,
+        3.76753999,  3.76753999,  4.5560878 ,  4.5560878 ,  6.1714358 ,
+        6.1714358 ,  3.62504673,  3.62504673,  1.99318846,  1.99318846,
+        2.52791665,  2.52791665,  3.22465797,  3.22465797,  3.36163081,
+        3.36163081,  3.41136637,  3.41136637,  5.63765677,  5.63765677,
+        2.26805345,  2.26805345,  4.50470209,  4.50470209,  4.14457924,
+        4.14457924,  6.89929031,  6.89929031,  5.33386714,  5.33386714,
+        2.6773406 ,  2.6773406 ,  5.42469323,  5.42469323,  3.51909434,
+        3.51909434,  2.7486439 ,  2.7486439 ,  4.88670201,  4.88670201,
+        0.11087754,  0.11087754,  0.70692846,  0.70692846,  0.        ,
+        0.        ,  3.0002411 ,  3.0002411 ,  9.25355453,  9.25355453,
+        2.69833712,  2.69833712,  1.48701291,  1.48701291,  3.49588118,
+        3.49588118,  5.30159258,  5.30159258,  4.23556899,  4.23556899,
+        6.964259  ,  6.964259  ,  1.26077585,  1.26077585,  4.41005718,
+        4.41005718,  6.70720863,  6.70720863,  4.07982248,  4.07982248,
+        0.        ,  0.        ,  4.37906953,  4.37906953,  0.33318354,
+        0.33318354, 11.96105268, 11.96105268,  4.00706806,  4.00706806])), (array([0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.]), array([ 79.11264519,  79.11264519,  23.33791353,  23.33791353,
+        23.25991034,  23.25991034,  15.10720339,  15.10720339,
+        30.79534879,  30.79534879,  45.17333109,  45.17333109,
+        22.76753646,  22.76753646,  41.9308764 ,  41.9308764 ,
+        42.73034132,  42.73034132,  93.34260574,  93.34260574,
+        68.03739395,  68.03739395,  33.22418645,  33.22418645,
+        49.1048676 ,  49.1048676 ,  57.439152  ,  57.439152  ,
+        12.27868304,  12.27868304,   1.61363615,   1.61363615,
+        50.21647541,  50.21647541,  40.0282928 ,  40.0282928 ,
+        49.96919472,  49.96919472,  38.94618699,  38.94618699,
+        35.28284205,  35.28284205, 139.20238495, 139.20238495,
+       107.27157333, 107.27157333,  34.57793169,  34.57793169,
+        33.88005849,  33.88005849,  70.10344076,  70.10344076,
+        62.67680027,  62.67680027,  31.83644897,  31.83644897,
+        22.20184146,  22.20184146,  47.98784016,  47.98784016,
+        29.2144675 ,  29.2144675 ,  21.51131668,  21.51131668,
+        37.08888916,  37.08888916,  22.61521473,  22.61521473,
+        55.8954714 ,  55.8954714 ,  28.46704306,  28.46704306,
+        59.02841036,  59.02841036,  19.07073838,  19.07073838,
+         0.98054909,   0.98054909,  21.13166629,  21.13166629,
+        18.84374926,  18.84374926,  24.25666026,  24.25666026,
+        17.029357  ,  17.029357  ,  54.26073006,  54.26073006,
+        43.49046477,  43.49046477,   7.05925476,   7.05925476,
+        33.1358533 ,  33.1358533 ,  31.99134387,  31.99134387,
+        13.41548942,  13.41548942,  43.22829816,  43.22829816])), (array([0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.]), array([ 289.37334393,  289.37334393,   85.00172001,   85.00172001,
+        280.13968111,  280.13968111,  470.27977333,  470.27977333,
+        111.4231417 ,  111.4231417 ,  130.31140916,  130.31140916,
+        388.7681663 ,  388.7681663 ,  303.77379233,  303.77379233,
+         15.79631251,   15.79631251,  359.2164877 ,  359.2164877 ,
+         83.7379518 ,   83.7379518 ,  310.60158224,  310.60158224,
+        400.90461694,  400.90461694,  415.10848347,  415.10848347,
+        828.74641365,  828.74641365,  308.25878839,  308.25878839,
+        746.07403673,  746.07403673, 1510.10294106, 1510.10294106,
+       1014.58053993, 1014.58053993,  315.87274172,  315.87274172,
+        513.74177607,  513.74177607,  281.97798267,  281.97798267,
+        728.40694586,  728.40694586, 1485.22168751, 1485.22168751,
+        493.72680291,  493.72680291, 2590.91641231, 2590.91641231,
+        553.34924541,  553.34924541,  999.13428612,  999.13428612,
+        476.37051021,  476.37051021,  485.63727228,  485.63727228,
+        390.58961771,  390.58961771,  127.82628816,  127.82628816,
+        834.41487927,  834.41487927,  476.71112234,  476.71112234,
+       2179.63192889, 2179.63192889,  164.68521191,  164.68521191,
+        781.12253944,  781.12253944,  323.99377124,  323.99377124,
+        753.1465794 ,  753.1465794 ,  349.44564626,  349.44564626,
+        935.47973823,  935.47973823, 1005.37946702, 1005.37946702,
+        264.56647129,  264.56647129,  100.25672725,  100.25672725,
+        708.69628486,  708.69628486,  610.27562429,  610.27562429,
+        521.31294032,  521.31294032,  494.9234212 ,  494.9234212 ,
+        227.44419319,  227.44419319,  594.71629558,  594.71629558])), (array([0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0.]), array([ 1915.75577919,  1915.75577919,  1357.13074411,  1357.13074411,
+         481.75471455,   481.75471455,  3021.40263206,  3021.40263206,
+        4952.41611689,  4952.41611689,   841.24584045,   841.24584045,
+       18582.21354512, 18582.21354512, 14189.58907716, 14189.58907716,
+        5514.28135293,  5514.28135293,  3825.32754524,  3825.32754524,
+        2223.88655771,  2223.88655771,  4799.64047278,  4799.64047278,
+         458.25477172,  2574.40068109,  3339.46169729,  3339.46169729,
+        1560.63195344,  1560.63195344,  6590.90954712,  1616.46829674,
+        1616.46829674,   970.54307839,   970.54307839,  2839.65551221,
+       24909.28140427, 24909.28140427, 19087.56233578, 19087.56233578,
+        3542.28307036,  3542.28307036,  1050.42000683,  1050.42000683,
+       19500.03420552, 19500.03420552,   430.88840356,   430.88840356,
+        3377.32061136,  3377.32061136,  1234.95187411,  1234.95187411,
+       13269.66104401, 24830.08546209, 24830.08546209,   951.8388519 ,
+         951.8388519 ,  7219.30474388,  7219.30474388,  9966.87693865,
+        9966.87693865,  2201.58486018,  2201.58486018,   527.08080545,
+         527.08080545,   691.99407292, 21008.45002909, 21008.45002909,
+        2544.90801834,  2544.90801834,   962.02259359,  5770.24726717,
+        5770.24726717,   178.90939777,   608.1509054 ,   608.1509054 ,
+        8775.10996905,  8775.10996905,   655.13031575,  2613.70858822,
+        2613.70858822,  4247.96311795,  4247.96311795,   796.6727193 ,
+         796.6727193 ,   358.06081722,   358.06081722, 14532.91111899,
+       14532.91111899, 13005.88289279, 13005.88289279])), (array([0., 0., 0., 0.]), array([1610.14045872,  775.70867549, 8115.11162843, 1245.44827519]))]
+
+[1147.233009338379 sound_loss_proj.py:__init__:1097] DEBUG - 
+	 Making ls calc with 50 inc, 50 dec, 5 N'' nodes
+
+[1147.3681926727295 sound_loss_proj.py:__init__:1097] DEBUG - 
+	 Making ls calc with 50 inc, 50 dec, 7500 N'' nodes
+
+[1147.521734237671 sound_loss_proj.py:__init__:1097] DEBUG - 
+	 Making ls calc with 50 inc, 50 dec, 7500 N'' nodes
+
+[1147.6659774780273 sound_loss_proj.py:__init__:1097] DEBUG - 
+	 Making ls calc with 50 inc, 50 dec, 7500 N'' nodes
+
+[1147.8116512298584 sound_loss_proj.py:__init__:1097] DEBUG - 
+	 Making ls calc with 50 inc, 50 dec, 7500 N'' nodes
+
+[1147.951364517212 sound_loss_proj.py:__init__:1097] DEBUG - 
+	 Making ls calc with 45 inc, 46 dec, 7500 N'' nodes
+
+[1148.057460784912 parametrized_abstract_network.py:train_abs_net:603] INFO - 
+	 Starting training
+
+[1149.1024494171143 parametrized_abstract_network.py:train_abs_net:623] DEBUG - 
+	 Cex data: tensor([[-3.0098e-01,  8.6032e-03,  4.9433e-01,  4.8973e-01,  3.6237e-01],
+        [-3.0142e-01,  6.2587e-03,  4.9609e-01,  4.0992e-01,  3.0551e-01],
+        [-2.9978e-01,  7.2848e-04,  4.9556e-01,  4.5769e-01,  3.6064e-01],
+        ...,
+        [-3.0224e-01, -6.8151e-03,  4.9507e-01,  4.2574e-01,  3.5858e-01],
+        [-3.0312e-01, -1.0413e-04,  4.9531e-01,  3.3132e-01,  4.0156e-01],
+        [-3.0180e-01,  1.4702e-03,  4.9835e-01,  3.9390e-01,  4.7234e-01]])
+
+[1954.3299674987793 sound_loss_proj.py:compare_planes_single_step_batched_nochk:542] WARNING - 
+	 Compare plane returning unbounded loss 
+
+[2337.339162826538 sound_loss_proj.py:compare_planes_single_step_batched_nochk:542] WARNING - 
+	 Compare plane returning unbounded loss 
+
+[3355.8218479156494 sound_loss_proj.py:compare_planes_single_step_batched_nochk:542] WARNING - 
+	 Compare plane returning unbounded loss 
+
+[4000.037670135498 sound_loss_proj.py:compare_planes_single_step_batched_nochk:542] WARNING - 
+	 Compare plane returning unbounded loss 
+
+[5197.82280921936 sound_loss_proj.py:compare_planes_single_step_batched_nochk:542] WARNING - 
+	 Compare plane returning unbounded loss 
+
+[5901.242017745972 sound_loss_proj.py:compare_planes_single_step_batched_nochk:542] WARNING - 
+	 Compare plane returning unbounded loss 
+
+[7106.663703918457 sound_loss_proj.py:compare_planes_single_step_batched_nochk:542] WARNING - 
+	 Compare plane returning unbounded loss 
+
+[7816.663980484009 sound_loss_proj.py:compare_planes_single_step_batched_nochk:542] WARNING - 
+	 Compare plane returning unbounded loss 
+
+[8944.454431533813 sound_loss_proj.py:compare_planes_single_step_batched_nochk:542] WARNING - 
+	 Compare plane returning unbounded loss 
+
+[9580.976963043213 sound_loss_proj.py:compare_planes_single_step_batched_nochk:542] WARNING - 
+	 Compare plane returning unbounded loss 
+
+[9906.898260116577 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 46403.51171875, lam loss: 0.013093349523842335, cex: 0.0, sum: 30935.67578125
+
+[34837.928771972656 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 69038.1640625, lam loss: 0.012443865649402142, cex: 0.0, sum: 46025.4453125
+
+[50674.413204193115 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.9, epoch 1
+
+[50674.874782562256 parametrized_abstract_network.py:fix_lambdas_threshold:356] INFO - 
+	 Fixing 21 lambdas in layer 4 due to threshold
+
+[50675.33230781555 parametrized_abstract_network.py:reset_wb:269] INFO - 
+	 Resetting weights and biases
+
+[51477.110385894775 sound_loss_proj.py:compare_planes_single_step_batched_nochk:542] WARNING - 
+	 Compare plane returning unbounded loss 
+
+[51692.00277328491 sound_loss_proj.py:compare_planes_single_step_batched_nochk:542] WARNING - 
+	 Compare plane returning unbounded loss 
+
+[53362.63561248779 sound_loss_proj.py:compare_planes_single_step_batched_nochk:542] WARNING - 
+	 Compare plane returning unbounded loss 
+
+[59735.005140304565 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 17696.814453125, lam loss: 0.012005503289401531, cex: 71843.96875, sum: 47719.859375
+
+[77103.82628440857 sound_loss_proj.py:compare_planes_single_step_batched_nochk:542] WARNING - 
+	 Compare plane returning unbounded loss 
+
+[84958.3592414856 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 4337.09619140625, lam loss: 0.010849256068468094, cex: 0.0, sum: 2891.3974609375
+
+[101928.0571937561 sound_loss_proj.py:compare_planes_single_step_batched_nochk:542] WARNING - 
+	 Compare plane returning unbounded loss 
+
+[109734.1115474701 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 5109.51904296875, lam loss: 0.011026277206838131, cex: 0.0, sum: 3406.34619140625
+
+[125660.57991981506 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.9, epoch 4
+
+[126784.50775146484 sound_loss_proj.py:compare_planes_single_step_batched_nochk:542] WARNING - 
+	 Compare plane returning unbounded loss 
+
+[134419.21734809875 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 4616.416015625, lam loss: 0.011161047033965588, cex: 0.0, sum: 3077.61083984375
+
+[150083.93216133118 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.81, epoch 5
+
+[151064.21899795532 sound_loss_proj.py:compare_planes_single_step_batched_nochk:542] WARNING - 
+	 Compare plane returning unbounded loss 
+
+[158523.81110191345 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 4242.58935546875, lam loss: 0.011256041936576366, cex: 0.0, sum: 2828.39306640625
+
+[174582.0529460907 sound_loss_proj.py:compare_planes_single_step_batched_nochk:542] WARNING - 
+	 Compare plane returning unbounded loss 
+
+[174805.07636070251 sound_loss_proj.py:compare_planes_single_step_batched_nochk:542] WARNING - 
+	 Compare plane returning unbounded loss 
+
+[182194.4875717163 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 4079.2978515625, lam loss: 0.011323974467813969, cex: 926188.0625, sum: 465813.5625
+
+[198394.6771621704 sound_loss_proj.py:compare_planes_single_step_batched_nochk:542] WARNING - 
+	 Compare plane returning unbounded loss 
+
+[198610.44597625732 sound_loss_proj.py:compare_planes_single_step_batched_nochk:542] WARNING - 
+	 Compare plane returning unbounded loss 
+
+[206186.5029335022 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 5896.185546875, lam loss: 0.011703383177518845, cex: 0.0, sum: 3930.79052734375
+
+[221595.04556655884 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.9, epoch 8
+
+[222632.11131095886 sound_loss_proj.py:compare_planes_single_step_batched_nochk:542] WARNING - 
+	 Compare plane returning unbounded loss 
+
+[230138.89145851135 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 5445.37451171875, lam loss: 0.011931441724300385, cex: 0.0, sum: 3630.249755859375
+
+[245793.9727306366 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.81, epoch 9
+
+[246795.17531394958 sound_loss_proj.py:compare_planes_single_step_batched_nochk:542] WARNING - 
+	 Compare plane returning unbounded loss 
+
+[254284.50083732605 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 5285.66845703125, lam loss: 0.012080405838787556, cex: 888209.5625, sum: 447628.5625
+
+[270138.02909851074 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.7290000000000001, epoch 10
+
+[278776.9660949707 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 6244.18115234375, lam loss: 0.012472100555896759, cex: 0.0, sum: 4162.78759765625
+
+[294517.8499221802 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.6561000000000001, epoch 11
+
+[303082.4604034424 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 6944.69287109375, lam loss: 0.012436936609447002, cex: 0.0, sum: 4629.79541015625
+
+[318644.34456825256 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.5904900000000002, epoch 12
+
+[318644.92559432983 parametrized_abstract_network.py:fix_lambdas_threshold:356] INFO - 
+	 Fixing 3 lambdas in layer 6 due to threshold
+
+[318645.34616470337 parametrized_abstract_network.py:reset_wb:269] INFO - 
+	 Resetting weights and biases
+
+[319707.28635787964 sound_loss_proj.py:compare_planes_single_step_batched_nochk:542] WARNING - 
+	 Compare plane returning unbounded loss 
+
+[327340.10457992554 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 5073.93017578125, lam loss: 0.01233130693435669, cex: 0.0, sum: 3382.6201171875
+
+[343249.25780296326 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.9, epoch 13
+
+[343249.67885017395 parametrized_abstract_network.py:fix_lambdas_threshold:356] INFO - 
+	 Fixing 9 lambdas in layer 2 due to threshold
+
+[343250.17619132996 parametrized_abstract_network.py:fix_lambdas_threshold:356] INFO - 
+	 Fixing 47 lambdas in layer 5 due to threshold
+
+[343250.8490085602 parametrized_abstract_network.py:reset_wb:269] INFO - 
+	 Resetting weights and biases
+
+[344350.67200660706 sound_loss_proj.py:compare_planes_single_step_batched_nochk:542] WARNING - 
+	 Compare plane returning unbounded loss 
+
+[346014.6417617798 sound_loss_proj.py:compare_planes_single_step_batched_nochk:542] WARNING - 
+	 Compare plane returning unbounded loss 
+
+[352252.0651817322 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 3906.806396484375, lam loss: 0.010473390109837055, cex: 32434.310546875, sum: 18821.693359375
+
+[377809.0100288391 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 3353.679931640625, lam loss: 0.010440465062856674, cex: 3535240.25, sum: 1769855.875
+
+[402924.9243736267 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 3787.939208984375, lam loss: 0.010257191956043243, cex: 0.0, sum: 2525.29296875
+
+[418991.0876750946 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.9, epoch 16
+
+[418991.7860031128 parametrized_abstract_network.py:fix_lambdas_threshold:356] INFO - 
+	 Fixing 1 lambdas in layer 6 due to threshold
+
+[418992.2094345093 parametrized_abstract_network.py:reset_wb:269] INFO - 
+	 Resetting weights and biases
+
+[428085.91628074646 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 4719.38525390625, lam loss: 0.009467734955251217, cex: 0.0, sum: 3146.2568359375
+
+[444428.90667915344 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.9, epoch 17
+
+[444429.44955825806 parametrized_abstract_network.py:fix_lambdas_threshold:356] INFO - 
+	 Fixing 6 lambdas in layer 6 due to threshold
+
+[444429.87632751465 parametrized_abstract_network.py:reset_wb:269] INFO - 
+	 Resetting weights and biases
+
+[453500.5855560303 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 3894.086669921875, lam loss: 0.009938308969140053, cex: 0.0, sum: 2596.057861328125
+
+[469775.9711742401 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.9, epoch 18
+
+[469776.3521671295 parametrized_abstract_network.py:fix_lambdas_threshold:356] INFO - 
+	 Fixing 31 lambdas in layer 2 due to threshold
+
+[469777.01330184937 parametrized_abstract_network.py:fix_lambdas_threshold:356] INFO - 
+	 Fixing 7 lambdas in layer 3 due to threshold
+
+[469777.3745059967 parametrized_abstract_network.py:fix_lambdas_threshold:356] INFO - 
+	 Fixing 3 lambdas in layer 5 due to threshold
+
+[469777.65130996704 parametrized_abstract_network.py:fix_lambdas_threshold:356] INFO - 
+	 Fixing 1 lambdas in layer 6 due to threshold
+
+[469777.9276371002 parametrized_abstract_network.py:reset_wb:269] INFO - 
+	 Resetting weights and biases
+
+[478740.7531738281 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 3865.0615234375, lam loss: 0.009064925834536552, cex: 0.0, sum: 2576.707763671875
+
+[494663.4569168091 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.9, epoch 19
+
+[494663.81549835205 parametrized_abstract_network.py:fix_lambdas_threshold:356] INFO - 
+	 Fixing 1 lambdas in layer 1 due to threshold
+
+[494664.31307792664 parametrized_abstract_network.py:fix_lambdas_threshold:356] INFO - 
+	 Fixing 1 lambdas in layer 6 due to threshold
+
+[494664.6263599396 parametrized_abstract_network.py:reset_wb:269] INFO - 
+	 Resetting weights and biases
+
+[495723.1307029724 sound_loss_proj.py:compare_planes_single_step_batched_nochk:542] WARNING - 
+	 Compare plane returning unbounded loss 
+
+[503714.1811847687 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 3814.187255859375, lam loss: 0.009475073777139187, cex: 0.0, sum: 2542.79150390625
+
+[519727.2069454193 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.9, epoch 20
+
+[528701.005935669 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 2672.66015625, lam loss: 0.009448333643376827, cex: 1081770.875, sum: 542667.1875
+
+[553625.1795291901 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 4397.93359375, lam loss: 0.009106166660785675, cex: 0.0, sum: 2931.955810546875
+
+[569349.4961261749 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.9, epoch 22
+
+[578380.5015087128 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 5638.05126953125, lam loss: 0.009460318833589554, cex: 13.987114906311035, sum: 3765.694580078125
+
+[594687.577009201 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.81, epoch 23
+
+[603519.1242694855 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 6959.31787109375, lam loss: 0.009531416930258274, cex: 0.0, sum: 4639.54541015625
+
+[619402.5490283966 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.7290000000000001, epoch 24
+
+[628214.2386436462 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 7425.26025390625, lam loss: 0.009614103473722935, cex: 0.0, sum: 4950.173828125
+
+[644425.1208305359 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.6561000000000001, epoch 25
+
+[653149.085521698 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 8071.42822265625, lam loss: 0.009651140309870243, cex: 0.0, sum: 5380.9521484375
+
+[668538.2788181305 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.5904900000000002, epoch 26
+
+[677165.5795574188 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 8740.09375, lam loss: 0.009649932384490967, cex: 0.0, sum: 5826.7294921875
+
+[692324.1457939148 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.5314410000000002, epoch 27
+
+[700981.6038608551 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 9309.8193359375, lam loss: 0.009644894860684872, cex: 0.0, sum: 6206.54638671875
+
+[715764.4345760345 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.47829690000000014, epoch 28
+
+[724369.1804409027 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 9862.7021484375, lam loss: 0.009641542099416256, cex: 0.0, sum: 6575.134765625
+
+[738924.8328208923 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.43046721000000016, epoch 29
+
+[747489.4857406616 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 10256.6708984375, lam loss: 0.009638039395213127, cex: 0.0, sum: 6837.78076171875
+
+[762711.9221687317 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.38742048900000015, epoch 30
+
+[771347.5832939148 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 10648.6650390625, lam loss: 0.00963397417217493, cex: 0.0, sum: 7099.1103515625
+
+[786628.1080245972 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.34867844010000015, epoch 31
+
+[795208.5161209106 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 10963.2373046875, lam loss: 0.009629759937524796, cex: 0.0, sum: 7308.8251953125
+
+[810048.1328964233 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.31381059609000017, epoch 32
+
+[810048.642873764 parametrized_abstract_network.py:fix_lambdas_threshold:356] INFO - 
+	 Fixing 1 lambdas in layer 6 due to threshold
+
+[810049.0889549255 parametrized_abstract_network.py:reset_wb:269] INFO - 
+	 Resetting weights and biases
+
+[818731.8730354309 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 6839.35791015625, lam loss: 0.009607761166989803, cex: 0.0, sum: 4559.572265625
+
+[834062.2055530548 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.9, epoch 33
+
+[834062.6752376556 parametrized_abstract_network.py:fix_lambdas_threshold:356] INFO - 
+	 Fixing 43 lambdas in layer 3 due to threshold
+
+[834063.4071826935 parametrized_abstract_network.py:reset_wb:269] INFO - 
+	 Resetting weights and biases
+
+[842916.8674945831 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 4460.33544921875, lam loss: 0.008953583426773548, cex: 454334.3125, sum: 230140.71875
+
+[858936.6281032562 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.9, epoch 34
+
+[867657.901763916 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 5209.01123046875, lam loss: 0.008856145665049553, cex: 0.0, sum: 3472.67431640625
+
+[883311.6903305054 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.81, epoch 35
+
+[892105.1526069641 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 5235.84716796875, lam loss: 0.008704624138772488, cex: 0.0, sum: 3490.56494140625
+
+[907246.9985485077 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.7290000000000001, epoch 36
+
+[907247.3826408386 parametrized_abstract_network.py:fix_lambdas_threshold:356] INFO - 
+	 Fixing 29 lambdas in layer 2 due to threshold
+
+[907247.9391098022 parametrized_abstract_network.py:reset_wb:269] INFO - 
+	 Resetting weights and biases
+
+[916185.1861476898 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 5119.79931640625, lam loss: 0.008382372558116913, cex: 0.0, sum: 3413.19970703125
+
+[931936.9535446167 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.9, epoch 37
+
+[940660.5913639069 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 3638.036376953125, lam loss: 0.00826224870979786, cex: 18978.654296875, sum: 11914.6845703125
+
+[956157.0510864258 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.81, epoch 38
+
+[964822.0973014832 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 4636.6025390625, lam loss: 0.008378948085010052, cex: 0.0, sum: 3091.068359375
+
+[979966.3066864014 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.7290000000000001, epoch 39
+
+[988602.0739078522 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 4790.04345703125, lam loss: 0.008380901999771595, cex: 0.0, sum: 3193.3623046875
+
+[1003578.6199569702 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.6561000000000001, epoch 40
+
+[1012121.3502883911 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 4880.05859375, lam loss: 0.008377285674214363, cex: 0.0, sum: 3253.37255859375
+
+[1027251.7080307007 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.5904900000000002, epoch 41
+
+[1035891.520023346 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 4843.08251953125, lam loss: 0.008371545933187008, cex: 0.0, sum: 3228.7216796875
+
+[1050591.8571949005 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.5314410000000002, epoch 42
+
+[1059086.0142707825 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 4757.76318359375, lam loss: 0.008363153785467148, cex: 0.0, sum: 3171.84228515625
+
+[1073636.8720531464 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.47829690000000014, epoch 43
+
+[1082213.2408618927 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 4692.9296875, lam loss: 0.008350308053195477, cex: 1483.44921875, sum: 3870.344482421875
+
+[1097141.7772769928 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.43046721000000016, epoch 44
+
+[1097142.3525810242 parametrized_abstract_network.py:fix_lambdas_threshold:356] INFO - 
+	 Fixing 2 lambdas in layer 6 due to threshold
+
+[1097142.6901817322 parametrized_abstract_network.py:reset_wb:269] INFO - 
+	 Resetting weights and biases
+
+[1105773.811340332 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 4333.69775390625, lam loss: 0.008271786384284496, cex: 0.0, sum: 2889.1318359375
+
+[1121410.91132164 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.9, epoch 45
+
+[1130045.1526641846 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 3646.072265625, lam loss: 0.008397701196372509, cex: 10750.8251953125, sum: 7806.12744140625
+
+[1145234.022140503 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.81, epoch 46
+
+[1154052.1199703217 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 4616.65087890625, lam loss: 0.00829089991748333, cex: 1111.6800537109375, sum: 3633.607421875
+
+[1169532.1712493896 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.7290000000000001, epoch 47
+
+[1178261.7783546448 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 4987.08349609375, lam loss: 0.007572641596198082, cex: 0.0, sum: 3324.722412109375
+
+[1193592.0581817627 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.6561000000000001, epoch 48
+
+[1202222.2301959991 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 5102.61181640625, lam loss: 0.007911925204098225, cex: 0.0, sum: 3401.7412109375
+
+[1217288.1588935852 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.5904900000000002, epoch 49
+
+[1225956.5234184265 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 5031.63037109375, lam loss: 0.008007162250578403, cex: 0.0, sum: 3354.42041015625
+
+[1241142.5297260284 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.5314410000000002, epoch 50
+
+[1249824.8739242554 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 4838.99462890625, lam loss: 0.007954242639243603, cex: 0.0, sum: 3225.99658203125
+
+[1264958.8108062744 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.47829690000000014, epoch 51
+
+[1273621.0448741913 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 4555.0634765625, lam loss: 0.007917298004031181, cex: 0.0, sum: 3036.708984375
+
+[1288538.774728775 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.43046721000000016, epoch 52
+
+[1297250.0615119934 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 4311.82568359375, lam loss: 0.007902058772742748, cex: 0.0, sum: 2874.550537109375
+
+[1312380.7337284088 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.38742048900000015, epoch 53
+
+[1320999.1385936737 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 4124.28076171875, lam loss: 0.00788865890353918, cex: 0.0, sum: 2749.5205078125
+
+[1336240.3326034546 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.34867844010000015, epoch 54
+
+[1344854.411125183 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 3957.667236328125, lam loss: 0.00787607952952385, cex: 0.0, sum: 2638.44482421875
+
+[1359542.4933433533 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.31381059609000017, epoch 55
+
+[1368128.6606788635 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 3861.097900390625, lam loss: 0.007864389568567276, cex: 0.0, sum: 2574.0654296875
+
+[1383671.4580059052 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.28242953648100017, epoch 56
+
+[1392292.2778129578 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 3742.228515625, lam loss: 0.007853208109736443, cex: 0.0, sum: 2494.819091796875
+
+[1407323.9681720734 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.25418658283290013, epoch 57
+
+[1407324.5396614075 parametrized_abstract_network.py:fix_lambdas_threshold:356] INFO - 
+	 Fixing 29 lambdas in layer 4 due to threshold
+
+[1407325.376033783 parametrized_abstract_network.py:reset_wb:269] INFO - 
+	 Resetting weights and biases
+
+[1416048.4943389893 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 3506.1875, lam loss: 0.00733168562874198, cex: 5176166.5, sum: 2590420.75
+
+[1431389.6293640137 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.9, epoch 58
+
+[1440091.8791294098 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 4453.50244140625, lam loss: 0.00786824431270361, cex: 0.0, sum: 2969.001708984375
+
+[1455299.3433475494 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.81, epoch 59
+
+[1464049.0033626556 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 4527.4873046875, lam loss: 0.007874161936342716, cex: 0.0, sum: 3018.324951171875
+
+[1479643.4152126312 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.7290000000000001, epoch 60
+
+[1488533.3025455475 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 4391.00634765625, lam loss: 0.00786895677447319, cex: 0.0, sum: 2927.337646484375
+
+[1503790.9116744995 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.6561000000000001, epoch 61
+
+[1512534.4107151031 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 4194.85888671875, lam loss: 0.00786218885332346, cex: 0.0, sum: 2796.57275390625
+
+[1527820.3837871552 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.5904900000000002, epoch 62
+
+[1536628.10921669 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 4025.214111328125, lam loss: 0.007859055884182453, cex: 0.0, sum: 2683.47607421875
+
+[1552015.0167942047 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.5314410000000002, epoch 63
+
+[1560658.073425293 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 3864.817138671875, lam loss: 0.007856992073357105, cex: 0.0, sum: 2576.544921875
+
+[1575924.079656601 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.47829690000000014, epoch 64
+
+[1584520.4973220825 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 3737.0390625, lam loss: 0.007854736410081387, cex: 0.0, sum: 2491.359375
+
+[1599404.6604633331 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.43046721000000016, epoch 65
+
+[1608144.1514492035 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 3616.3779296875, lam loss: 0.00785194244235754, cex: 0.0, sum: 2410.918701171875
+
+[1623512.9086971283 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.38742048900000015, epoch 66
+
+[1632336.264848709 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 3496.806884765625, lam loss: 0.007848908193409443, cex: 0.0, sum: 2331.20458984375
+
+[1647478.2030582428 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.34867844010000015, epoch 67
+
+[1656153.2208919525 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 3389.361572265625, lam loss: 0.007845754735171795, cex: 0.0, sum: 2259.574462890625
+
+[1671523.1533050537 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.31381059609000017, epoch 68
+
+[1680180.7873249054 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 3291.043212890625, lam loss: 0.00784276518970728, cex: 740281.625, sum: 372334.84375
+
+[1695450.2925872803 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.28242953648100017, epoch 69
+
+[1695450.6540298462 parametrized_abstract_network.py:fix_lambdas_threshold:356] INFO - 
+	 Fixing 99 lambdas in layer 1 due to threshold
+
+[1695451.4093399048 parametrized_abstract_network.py:fix_lambdas_threshold:356] INFO - 
+	 Fixing 9 lambdas in layer 6 due to threshold
+
+[1695451.8384933472 parametrized_abstract_network.py:reset_wb:269] INFO - 
+	 Resetting weights and biases
+
+[1704236.989736557 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 4133.85595703125, lam loss: 0.005476365331560373, cex: 0.0, sum: 2755.904052734375
+
+[1719399.3105888367 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.9, epoch 70
+
+[1728142.0276165009 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 3115.456298828125, lam loss: 0.005527535919100046, cex: 1.8276301622390747, sum: 2077.884765625
+
+[1743692.9831504822 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.81, epoch 71
+
+[1752536.2277030945 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 3157.798828125, lam loss: 0.005524452775716782, cex: 65062.57421875, sum: 34636.484375
+
+[1768198.301076889 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.7290000000000001, epoch 72
+
+[1776946.543931961 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 7007.84765625, lam loss: 0.005491210613399744, cex: 0.0, sum: 4671.8984375
+
+[1792698.9884376526 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.6561000000000001, epoch 73
+
+[1801385.5032920837 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 7456.7890625, lam loss: 0.005491379648447037, cex: 0.0, sum: 4971.19287109375
+
+[1816421.625137329 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.5904900000000002, epoch 74
+
+[1825312.9305839539 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 7606.841796875, lam loss: 0.005492070224136114, cex: 0.0, sum: 5071.22802734375
+
+[1840921.1914539337 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.5314410000000002, epoch 75
+
+[1849669.870853424 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 7569.78759765625, lam loss: 0.005490292329341173, cex: 0.0, sum: 5046.525390625
+
+[1865033.1988334656 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.47829690000000014, epoch 76
+
+[1873905.9646129608 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 7445.64208984375, lam loss: 0.005489003378897905, cex: 0.0, sum: 4963.76171875
+
+[1889321.4588165283 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.43046721000000016, epoch 77
+
+[1898015.620470047 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 7294.08056640625, lam loss: 0.005489047151058912, cex: 0.0, sum: 4862.720703125
+
+[1913197.5977420807 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.38742048900000015, epoch 78
+
+[1921878.7286281586 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 7114.18896484375, lam loss: 0.005488891154527664, cex: 0.0, sum: 4742.79296875
+
+[1937035.2272987366 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.34867844010000015, epoch 79
+
+[1945680.6795597076 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 6950.0703125, lam loss: 0.005488676484674215, cex: 0.0, sum: 4633.38037109375
+
+[1961115.122795105 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.31381059609000017, epoch 80
+
+[1969794.0130233765 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 6836.62890625, lam loss: 0.005488929804414511, cex: 0.0, sum: 4557.7529296875
+
+[1984847.9704856873 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.28242953648100017, epoch 81
+
+[1993608.7744235992 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 6743.63720703125, lam loss: 0.005489917006343603, cex: 0.0, sum: 4495.75830078125
+
+[2008872.5996017456 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.25418658283290013, epoch 82
+
+[2017590.542793274 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 6660.46630859375, lam loss: 0.005491068586707115, cex: 0.0, sum: 4440.31103515625
+
+[2032510.300397873 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.22876792454961012, epoch 83
+
+[2041164.332151413 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 6550.6015625, lam loss: 0.005492091178894043, cex: 0.0, sum: 4367.06787109375
+
+[2056628.779888153 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.2058911320946491, epoch 84
+
+[2065288.7465953827 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 6434.42041015625, lam loss: 0.005492767784744501, cex: 0.0, sum: 4289.61376953125
+
+[2080790.9061908722 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.1853020188851842, epoch 85
+
+[2089533.2078933716 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 6294.84765625, lam loss: 0.005493082571774721, cex: 0.0, sum: 4196.5654296875
+
+[2104949.3131637573 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.16677181699666577, epoch 86
+
+[2104949.9945640564 parametrized_abstract_network.py:fix_lambdas_threshold:356] INFO - 
+	 Fixing 1 lambdas in layer 6 due to threshold
+
+[2104950.4351615906 parametrized_abstract_network.py:reset_wb:269] INFO - 
+	 Resetting weights and biases
+
+[2113609.8301410675 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 4685.8037109375, lam loss: 0.005470490548759699, cex: 0.0, sum: 3123.869140625
+
+[2129126.740217209 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.9, epoch 87
+
+[2137686.108827591 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 4042.434814453125, lam loss: 0.005519036669284105, cex: 0.42146122455596924, sum: 2695.167236328125
+
+[2152968.5168266296 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.81, epoch 88
+
+[2161780.1048755646 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 4017.0693359375, lam loss: 0.0055214096792042255, cex: 29401.689453125, sum: 17378.890625
+
+[2177489.874124527 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.7290000000000001, epoch 89
+
+[2186171.4107990265 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 4809.54638671875, lam loss: 0.005486313719302416, cex: 0.0, sum: 3206.3642578125
+
+[2201384.5207691193 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.6561000000000001, epoch 90
+
+[2210079.930305481 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 4801.84423828125, lam loss: 0.005491820629686117, cex: 0.0, sum: 3201.2294921875
+
+[2225030.2035808563 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.5904900000000002, epoch 91
+
+[2233723.154783249 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 4687.27880859375, lam loss: 0.005491981282830238, cex: 0.0, sum: 3124.8525390625
+
+[2249499.598264694 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.5314410000000002, epoch 92
+
+[2258228.0974388123 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 4561.47705078125, lam loss: 0.0054906937293708324, cex: 0.0, sum: 3040.98486328125
+
+[2273724.944829941 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.47829690000000014, epoch 93
+
+[2282336.4882469177 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 4469.37744140625, lam loss: 0.005490320269018412, cex: 0.0, sum: 2979.5849609375
+
+[2297561.1209869385 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.43046721000000016, epoch 94
+
+[2306218.3163166046 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 4387.81640625, lam loss: 0.005490574985742569, cex: 0.0, sum: 2925.2109375
+
+[2321984.123945236 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.38742048900000015, epoch 95
+
+[2330679.1594028473 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 4310.45068359375, lam loss: 0.005491063464432955, cex: 0.0, sum: 2873.6337890625
+
+[2346273.0898857117 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.34867844010000015, epoch 96
+
+[2354859.5106601715 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 4250.83935546875, lam loss: 0.005491587799042463, cex: 0.0, sum: 2833.89306640625
+
+[2369230.772256851 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.31381059609000017, epoch 97
+
+[2377804.140329361 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 4191.90966796875, lam loss: 0.005492155905812979, cex: 0.0, sum: 2794.6064453125
+
+[2392931.7619800568 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.28242953648100017, epoch 98
+
+[2401511.885404587 parametrized_abstract_network.py:train_abs_net:653] INFO - 
+	 Sound loss: 4121.78076171875, lam loss: 0.005492690950632095, cex: 0.0, sum: 2747.85400390625
+
+[2416043.4968471527 parametrized_abstract_network.py:train_abs_net:706] INFO - 
+	 Checking lambda fix, thres 0.25418658283290013, epoch 99
+
+[2416044.7437763214 parametrized_abstract_network.py:train_abs_net:733] INFO - 
+	 At End, Sound loss: 4121.78076171875, lam loss: 0.005492690950632095, cex: 0.0, sum: 2747.85400390625
+
+[2416070.1026916504 utils.py:show:262] INFO - 
+	 Saving plot figure to:
+ plots/75_abs_neurons_2024-01-16_17-00-09.plot_fig.png
+
+[2416171.681880951 utils.py:show:270] INFO - 
+	 Saving plot data to:
+ plots/75_abs_neurons_2024-01-16_17-00-09.plot
+
+[2416181.9372177124 utils.py:show:370] INFO - 
+	 Saving plot figure to:
+ plots/75_abs_neurons_2024-01-16_17-00-09.plot_lambdas_0_fig.png
+
+[2416359.600543976 utils.py:show:379] INFO - 
+	 Saving plot data to:
+ plots/75_abs_neurons_2024-01-16_17-00-09.plot_lambdas_0
+
+[2416368.1449890137 utils.py:show:370] INFO - 
+	 Saving plot figure to:
+ plots/75_abs_neurons_2024-01-16_17-00-09.plot_lambdas_1_fig.png
+
+[2416592.5381183624 utils.py:show:379] INFO - 
+	 Saving plot data to:
+ plots/75_abs_neurons_2024-01-16_17-00-09.plot_lambdas_1
+
+[2416601.835012436 utils.py:show:370] INFO - 
+	 Saving plot figure to:
+ plots/75_abs_neurons_2024-01-16_17-00-09.plot_lambdas_2_fig.png
+
+[2416825.572013855 utils.py:show:379] INFO - 
+	 Saving plot data to:
+ plots/75_abs_neurons_2024-01-16_17-00-09.plot_lambdas_2
+
+[2416834.172964096 utils.py:show:370] INFO - 
+	 Saving plot figure to:
+ plots/75_abs_neurons_2024-01-16_17-00-09.plot_lambdas_3_fig.png
+
+[2417091.6073322296 utils.py:show:379] INFO - 
+	 Saving plot data to:
+ plots/75_abs_neurons_2024-01-16_17-00-09.plot_lambdas_3
+
+[2417100.3971099854 utils.py:show:370] INFO - 
+	 Saving plot figure to:
+ plots/75_abs_neurons_2024-01-16_17-00-09.plot_lambdas_4_fig.png
+
+[2417376.9116401672 utils.py:show:379] INFO - 
+	 Saving plot data to:
+ plots/75_abs_neurons_2024-01-16_17-00-09.plot_lambdas_4
+
+[2417385.575056076 utils.py:show:370] INFO - 
+	 Saving plot figure to:
+ plots/75_abs_neurons_2024-01-16_17-00-09.plot_lambdas_5_fig.png
+
+[2417724.349498749 utils.py:show:379] INFO - 
+	 Saving plot data to:
+ plots/75_abs_neurons_2024-01-16_17-00-09.plot_lambdas_5
